@@ -1,8 +1,8 @@
 /* ========================================
-   RIDESURE WEBSITE
+   RIDE DESIRE WEBSITE
    ======================================== */
 
-.ridesure-site {
+.ride-desire-site {
   width: 100%;
   min-height: auto;
   background: #ffffff;
@@ -483,10 +483,13 @@
   transform: rotate(2deg);
 }
 
+/* Ride Desire hero logo size */
 .hero-logo {
-  width: 365px;
-  max-width: none;
+  width: 285px;
+  max-width: 100%;
+  height: auto;
   display: block;
+  object-fit: contain;
 }
 
 .floating-card {
@@ -547,9 +550,10 @@
   animation: floatOne 5s ease-in-out infinite;
 }
 
+/* Smart Mobility card moved below the Ride Desire wordmark */
 .floating-card-smart {
-  bottom: 45px;
-  left: -30px;
+  bottom: 8px;
+  left: -15px;
   animation: floatTwo 5.5s ease-in-out infinite;
 }
 
@@ -1125,7 +1129,7 @@
 }
 
 /* ========================================
-   RIDESURE EXPERIENCE
+   RIDE DESIRE EXPERIENCE
    ======================================== */
 
 .experience-section {
@@ -1381,7 +1385,7 @@
 }
 
 /* ========================================
-   CONTACT RIDESURE
+   CONTACT RIDE DESIRE
    ======================================== */
 
 .contact-section {
@@ -1977,11 +1981,19 @@
   }
 
   .hero-logo {
-    width: 325px;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 
   .floating-card {
     min-width: 165px;
+  }
+
+  .floating-card-smart {
+    bottom: 12px;
+    left: 0;
   }
 
   .hero-bottom span:last-child {
@@ -2204,9 +2216,18 @@
   }
 
   .hero-logo {
-    width: 295px;
+    width: 225px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .floating-card-smart {
+    bottom: 15px;
+    left: 5px;
   }
 }
+
 /* ========================================
    FINAL RESPONSIVE POLISH
    ======================================== */
@@ -2240,6 +2261,7 @@
     font-size: 38px;
   }
 }
+
 /* ========================================
    ACCESSIBILITY & MOTION
    ======================================== */
@@ -2277,7 +2299,4 @@
     animation: none !important;
     transform: none;
   }
-}
-body::after {
-  content: "WIDTH: " attr(data-width);
 }

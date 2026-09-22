@@ -60,7 +60,7 @@ function App() {
   }
 
   return (
-    <div className="ridesure-site">
+    <div className="ride-desire-site">
       {/* =========================
           NAVIGATION
       ========================== */}
@@ -70,11 +70,11 @@ function App() {
             className="brand"
             type="button"
             onClick={() => scrollToSection('home')}
-            aria-label="RideSure Home"
+            aria-label="Ride Desire Home"
           >
             <img
-              src="/images/ridesure-logo.png"
-              alt="RideSure"
+              src="/images/ride-desire-logo.png"
+              alt="Ride Desire"
               className="brand-logo"
             />
           </button>
@@ -273,7 +273,7 @@ function App() {
               </h1>
 
               <p className="hero-description">
-                RideSure is a smart corporate
+                Ride Desire is a smart corporate
                 transportation platform designed
                 to make every journey safer,
                 simpler and more reliable.
@@ -287,7 +287,7 @@ function App() {
                     scrollToSection('about')
                   }
                 >
-                  Discover RideSure
+                  Discover Ride Desire
 
                   <span aria-hidden="true">
                     →
@@ -338,8 +338,8 @@ function App() {
               <div className="logo-card">
                 <div className="logo-card-inner">
                   <img
-                    src="/images/ridesure-logo.png"
-                    alt="RideSure - Smart Safe Simple"
+                    src="/images/ride-desire-logo.png"
+                    alt="Ride Desire - Smart Safe Simple"
                     className="hero-logo"
                   />
                 </div>
@@ -393,7 +393,7 @@ function App() {
         </section>
 
         {/* =========================
-            ABOUT RIDESURE
+            ABOUT RIDE DESIRE
         ========================== */}
         <section
           className="about-section"
@@ -404,7 +404,7 @@ function App() {
               <div className="section-label">
                 <span className="section-label-line" />
 
-                ABOUT RIDESURE
+                ABOUT RIDE DESIRE
               </div>
 
               <h2>
@@ -418,7 +418,7 @@ function App() {
               </h2>
 
               <p>
-                RideSure is a smart corporate
+                Ride Desire is a smart corporate
                 transportation platform built to
                 connect people, drivers and
                 transport operations through one
@@ -600,7 +600,7 @@ function App() {
         </section>
 
         {/* =========================
-            RIDESURE SAFETY
+            RIDE DESIRE SAFETY
         ========================== */}
         <section
           className="safety-section"
@@ -614,7 +614,7 @@ function App() {
               <div className="safety-section-label">
                 <span className="safety-label-line" />
 
-                RIDESURE SAFETY
+                RIDE DESIRE SAFETY
               </div>
 
               <h2>
@@ -630,7 +630,7 @@ function App() {
               <p>
                 Safety is not an additional
                 feature. It is part of how
-                RideSure is designed—from
+                Ride Desire is designed—from
                 verification and journey
                 visibility to intelligent
                 monitoring and support when it
@@ -764,7 +764,7 @@ function App() {
                 </h3>
 
                 <p>
-                  RideSure is designed around the
+                  Ride Desire is designed around the
                   people making every journey,
                   with safety considered
                   throughout the transportation
@@ -810,7 +810,7 @@ function App() {
         </section>
 
         {/* =========================
-            RIDESURE EXPERIENCE
+            RIDE DESIRE EXPERIENCE
         ========================== */}
         <section
           className="experience-section"
@@ -824,7 +824,7 @@ function App() {
               <div className="experience-label">
                 <span className="experience-label-line" />
 
-                THE RIDESURE EXPERIENCE
+                THE RIDE DESIRE EXPERIENCE
 
                 <span className="experience-label-line" />
               </div>
@@ -839,7 +839,7 @@ function App() {
               </h2>
 
               <p>
-                RideSure brings people,
+                Ride Desire brings people,
                 technology and transport
                 operations together to create a
                 safer, simpler and more reliable
@@ -851,8 +851,8 @@ function App() {
             <div className="experience-cinema">
               <div className="experience-image-wrap">
                 <img
-                  src="/images/ridesure-experience.png"
-                  alt="RideSure corporate transportation journey"
+                  src="/images/ride-desire-experience.png"
+                  alt="Ride Desire corporate transportation journey"
                   className="experience-image"
                 />
               </div>
@@ -958,7 +958,7 @@ function App() {
         </section>
 
         {/* =========================
-            CONTACT RIDESURE
+            CONTACT RIDE DESIRE
         ========================== */}
         <section
           id="contact"
@@ -972,7 +972,7 @@ function App() {
               <div className="contact-label">
                 <span className="contact-label-line" />
 
-                CONTACT RIDESURE
+                CONTACT RIDE DESIRE
               </div>
 
               <h2>
@@ -987,7 +987,7 @@ function App() {
               <p className="contact-description">
                 Whether you're exploring smarter
                 corporate transportation or want
-                to learn more about RideSure,
+                to learn more about Ride Desire,
                 we'd love to hear from you.
               </p>
 
@@ -1117,7 +1117,7 @@ function App() {
                     id="contact-message"
                     name="message"
                     rows="5"
-                    placeholder="How can RideSure help?"
+                    placeholder="How can Ride Desire help?"
                     required
                   />
                 </div>
@@ -1167,11 +1167,11 @@ function App() {
                 onClick={() =>
                   scrollToSection('home')
                 }
-                aria-label="Back to RideSure Home"
+                aria-label="Back to Ride Desire Home"
               >
                 <img
-                  src="/images/ridesure-logo.png"
-                  alt="RideSure"
+                  src="/images/ride-desire-logo.png"
+                  alt="Ride Desire"
                   className="footer-logo"
                 />
               </button>
@@ -1273,7 +1273,7 @@ function App() {
 
           <div className="footer-bottom">
             <p>
-              © {new Date().getFullYear()} RideSure.
+              © {new Date().getFullYear()} Ride Desire.
               All rights reserved.
             </p>
 
