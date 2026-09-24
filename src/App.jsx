@@ -85,45 +85,35 @@ function App() {
           >
             <button
               type="button"
-              onClick={() =>
-                scrollToSection('home')
-              }
+              onClick={() => scrollToSection('home')}
             >
               Home
             </button>
 
             <button
               type="button"
-              onClick={() =>
-                scrollToSection('about')
-              }
+              onClick={() => scrollToSection('about')}
             >
               About
             </button>
 
             <button
               type="button"
-              onClick={() =>
-                scrollToSection('safety')
-              }
+              onClick={() => scrollToSection('safety')}
             >
               Safety
             </button>
 
             <button
               type="button"
-              onClick={() =>
-                scrollToSection('experience')
-              }
+              onClick={() => scrollToSection('experience')}
             >
               Experience
             </button>
 
             <button
               type="button"
-              onClick={() =>
-                scrollToSection('contact')
-              }
+              onClick={() => scrollToSection('contact')}
             >
               Contact
             </button>
@@ -133,9 +123,7 @@ function App() {
             <button
               className="contact-button"
               type="button"
-              onClick={() =>
-                scrollToSection('contact')
-              }
+              onClick={() => scrollToSection('contact')}
             >
               Get in Touch
             </button>
@@ -178,9 +166,7 @@ function App() {
           >
             <button
               type="button"
-              onClick={() =>
-                scrollToSection('home')
-              }
+              onClick={() => scrollToSection('home')}
             >
               <span>Home</span>
               <span aria-hidden="true">→</span>
@@ -188,9 +174,7 @@ function App() {
 
             <button
               type="button"
-              onClick={() =>
-                scrollToSection('about')
-              }
+              onClick={() => scrollToSection('about')}
             >
               <span>About</span>
               <span aria-hidden="true">→</span>
@@ -198,9 +182,7 @@ function App() {
 
             <button
               type="button"
-              onClick={() =>
-                scrollToSection('safety')
-              }
+              onClick={() => scrollToSection('safety')}
             >
               <span>Safety</span>
               <span aria-hidden="true">→</span>
@@ -208,9 +190,7 @@ function App() {
 
             <button
               type="button"
-              onClick={() =>
-                scrollToSection('experience')
-              }
+              onClick={() => scrollToSection('experience')}
             >
               <span>Experience</span>
               <span aria-hidden="true">→</span>
@@ -218,9 +198,7 @@ function App() {
 
             <button
               type="button"
-              onClick={() =>
-                scrollToSection('contact')
-              }
+              onClick={() => scrollToSection('contact')}
             >
               <span>Contact</span>
               <span aria-hidden="true">→</span>
@@ -261,15 +239,15 @@ function App() {
               </div>
 
               <h1>
-                Smarter Corporate
+                Ride Desire
                 <span>
                   {' '}
-                  Transportation.
+                  Corporate Transportation.
                 </span>
 
                 <br />
 
-                Safer Every Journey.
+                Smarter. Safer. Simpler.
               </h1>
 
               <p className="hero-description">
@@ -283,9 +261,7 @@ function App() {
                 <button
                   type="button"
                   className="primary-button"
-                  onClick={() =>
-                    scrollToSection('about')
-                  }
+                  onClick={() => scrollToSection('about')}
                 >
                   Discover Ride Desire
 
@@ -297,9 +273,7 @@ function App() {
                 <button
                   type="button"
                   className="secondary-button"
-                  onClick={() =>
-                    scrollToSection('safety')
-                  }
+                  onClick={() => scrollToSection('safety')}
                 >
                   Explore Safety
                 </button>
@@ -1164,9 +1138,7 @@ function App() {
               <button
                 className="footer-logo-button"
                 type="button"
-                onClick={() =>
-                  scrollToSection('home')
-                }
+                onClick={() => scrollToSection('home')}
                 aria-label="Back to Ride Desire Home"
               >
                 <img
@@ -1177,9 +1149,10 @@ function App() {
               </button>
 
               <p>
-                Smart corporate transportation
-                designed around people, safety
-                and every journey.
+                Ride Desire is a smart corporate
+                transportation platform designed
+                around people, safety and every
+                journey.
               </p>
 
               <div className="footer-brand-line">
@@ -1198,45 +1171,35 @@ function App() {
 
               <button
                 type="button"
-                onClick={() =>
-                  scrollToSection('home')
-                }
+                onClick={() => scrollToSection('home')}
               >
                 Home
               </button>
 
               <button
                 type="button"
-                onClick={() =>
-                  scrollToSection('about')
-                }
+                onClick={() => scrollToSection('about')}
               >
                 About
               </button>
 
               <button
                 type="button"
-                onClick={() =>
-                  scrollToSection('safety')
-                }
+                onClick={() => scrollToSection('safety')}
               >
                 Safety
               </button>
 
               <button
                 type="button"
-                onClick={() =>
-                  scrollToSection('experience')
-                }
+                onClick={() => scrollToSection('experience')}
               >
                 Experience
               </button>
 
               <button
                 type="button"
-                onClick={() =>
-                  scrollToSection('contact')
-                }
+                onClick={() => scrollToSection('contact')}
               >
                 Contact
               </button>
@@ -1255,9 +1218,7 @@ function App() {
 
               <button
                 type="button"
-                onClick={() =>
-                  scrollToSection('contact')
-                }
+                onClick={() => scrollToSection('contact')}
                 className="footer-contact-link"
               >
                 Get in Touch
