@@ -794,39 +794,11 @@ function App() {
           <div className="experience-decoration experience-decoration-two" />
 
           <div className="experience-container">
-            <div className="experience-header">
-              <div className="experience-label">
-                <span className="experience-label-line" />
-
-                THE RIDE DESIRE EXPERIENCE
-
-                <span className="experience-label-line" />
-              </div>
-
-              <h2>
-                From planning to arrival,
-                <br />
-
-                <span>
-                  one connected experience.
-                </span>
-              </h2>
-
-              <p>
-                Ride Desire brings people,
-                technology and transport
-                operations together to create a
-                safer, simpler and more reliable
-                corporate transportation
-                experience.
-              </p>
-            </div>
-
             <div className="experience-cinema">
               <div className="experience-image-wrap">
                 <img
                   src="/images/ride-desire-experience.png"
-                  alt="Ride Desire corporate transportation journey"
+                  alt="Ride Desire corporate transportation experience showing connected employee journeys"
                   className="experience-image"
                 />
               </div>
